@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SkyComponentsPod"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "A short description of SkyComponentsPod."
   s.description      = <<-DESC
                        An optional longer description of SkyComponentsPod
@@ -29,8 +29,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
 #s.resource_bundles = {
-    'SkyComponentsPod' => ['Pod/Assets/*.png']
-  }
+#    'SkyComponentsPod' => ['Pod/Assets/*.png']
+# }
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
