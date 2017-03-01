@@ -80,7 +80,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/MWPhotoBrowser/MWPhotoBrowser.bundle"
   install_resource "SSKeychain/Support/SSKeychain.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
-  install_resource "$PODS_CONFIGURATION_BUILD_DIR/SkyComponentsPod/SkyComponentsPod.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/SkyUtilsPod/SkyUtilsPod.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/ZJPhotoPod/ZJPhotoPod.bundle"
 fi
@@ -88,7 +87,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/MWPhotoBrowser/MWPhotoBrowser.bundle"
   install_resource "SSKeychain/Support/SSKeychain.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
-  install_resource "$PODS_CONFIGURATION_BUILD_DIR/SkyComponentsPod/SkyComponentsPod.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/SkyUtilsPod/SkyUtilsPod.bundle"
   install_resource "$PODS_CONFIGURATION_BUILD_DIR/ZJPhotoPod/ZJPhotoPod.bundle"
 fi

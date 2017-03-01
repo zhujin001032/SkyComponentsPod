@@ -143,7 +143,7 @@ THE SOFTWARE.
 
 ## SkyComponentsPod
 
-Copyright (c) 2015 Jason.He <jason.he@missionsky.com>
+Copyright (c) 2015 Jason.He <zhujin001xb@163.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

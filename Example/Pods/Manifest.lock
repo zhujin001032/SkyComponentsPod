@@ -30,7 +30,7 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
-  - SkyComponentsPod (0.1.1):
+  - SkyComponentsPod (0.1.2):
     - AFNetworking (~> 2.3)
     - Masonry (~> 0.6.3)
     - MWPhotoBrowser (~> 2.1.1)
@@ -63,7 +63,7 @@ SPEC CHECKSUMS:
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
-  SkyComponentsPod: 08951117f53862df21cb0bbc11803b4030aa69f1
+  SkyComponentsPod: 294495574bb7f081e0922fda36ea662255314cc0
   SkyUtilsPod: 46d98d490fc8167152da55c135ae56aeacecbf9a
   SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
