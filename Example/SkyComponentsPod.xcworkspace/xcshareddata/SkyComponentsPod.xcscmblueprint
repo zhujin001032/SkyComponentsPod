@@ -1,0 +1,42 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "bd2a211b-6fa2-a04e-8179-0333786180b7++8188+++02A9AEA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "bd2a211b-6fa2-a04e-8179-0333786180b7++8188+++C158A36" : {
+
+    },
+    "bd2a211b-6fa2-a04e-8179-0333786180b7++8188+++02A9AEA" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "bd2a211b-6fa2-a04e-8179-0333786180b7++8188+++C158A36" : 0,
+    "bd2a211b-6fa2-a04e-8179-0333786180b7++8188+++02A9AEA" : 0,
+    "22BC748D06E83226450AB0F2F6A57BF0CA114BA3+++10C9BF2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "927D5CD2-FC2B-4E2D-9408-8539FB7BA18E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "bd2a211b-6fa2-a04e-8179-0333786180b7++8188+++C158A36" : "SkyComponentsPod\/",
+    "bd2a211b-6fa2-a04e-8179-0333786180b7++8188+++02A9AEA" : "SkyComponentsPod\/",
+    "22BC748D06E83226450AB0F2F6A57BF0CA114BA3+++10C9BF2" : "ZJPhotoPod\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SkyComponentsPod",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/SkyComponentsPod.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhujin001032\/ZJPhotoPod.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "22BC748D06E83226450AB0F2F6A57BF0CA114BA3+++10C9BF2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/jason.he@192.168.0.106:8080\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "bd2a211b-6fa2-a04e-8179-0333786180b7++8188+++02A9AEA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/mark.yang@192.168.0.106:8080\/svn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "bd2a211b-6fa2-a04e-8179-0333786180b7++8188+++C158A36"
+    }
+  ]
+}

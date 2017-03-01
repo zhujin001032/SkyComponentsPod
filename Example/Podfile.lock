@@ -1,0 +1,76 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - DACircularProgress (2.3.1)
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - SDWebImage (!= 3.7.2, ~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SkyComponentsPod (0.1.1):
+    - AFNetworking (~> 2.3)
+    - Masonry (~> 0.6.3)
+    - MWPhotoBrowser (~> 2.1.1)
+    - ZXingObjC (~> 3.0)
+  - SkyUtilsPod (0.1.3):
+    - SSKeychain (~> 1.4.0)
+  - SSKeychain (1.4.1)
+  - SVProgressHUD (2.1.2)
+  - UMengAnalytics (4.2.4)
+  - ZJPhotoPod (0.2.1)
+  - ZXingObjC (3.2.1):
+    - ZXingObjC/All (= 3.2.1)
+  - ZXingObjC/All (3.2.1)
+
+DEPENDENCIES:
+  - SkyComponentsPod (from `../`)
+  - SkyUtilsPod
+  - SVProgressHUD (~> 2.0)
+  - UMengAnalytics
+  - ZJPhotoPod
+
+EXTERNAL SOURCES:
+  SkyComponentsPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SkyComponentsPod: 08951117f53862df21cb0bbc11803b4030aa69f1
+  SkyUtilsPod: 46d98d490fc8167152da55c135ae56aeacecbf9a
+  SSKeychain: 55cc80f66f5c73da827e3077f02e43528897db41
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  UMengAnalytics: ef8d45f94c0e5771dc364cf6a5731d9d3b101da2
+  ZJPhotoPod: 471026666a12c2bdd4bf886efa19032534a36cbc
+  ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
+
+PODFILE CHECKSUM: 59a30a7acaa7d5ef38bde8599074401751e4aea4
+
+COCOAPODS: 1.2.0.beta.3

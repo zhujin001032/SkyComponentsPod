@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html ng-app="starter">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+    <link href="lib/ionic/css/ionic.min.css" rel="stylesheet">
+    <!--<script src="lib/ionic/js/ionic.bundle.js"></script>-->
+
+    <script src="lib/jquery-1.9.1.js"></script>
+    <script src='lib/ichart.1.2.1.js'></script>
+    <script src='lib/ichart.sign.js'></script>
+
+    <!--<script src="js/app.js"></script>-->
+    <script src="js/services.js"></script>
+    <script src="js/controllers.js"></script>
+    <style>
+
+        @font-face {
+            font-family: "msyh";
+            src:url("../微软雅黑.otf")
+        }
+        html,body{
+            font-family: "msyh";
+        }
+
+        .none {
+            display: none !important;
+        }
+
+        .titleHeader {
+            background-color: #6789c7;
+            text-align: center;
+            color: #b7caee;
+            font-size: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .titleTotal {
+            font-size: 30px;
+            color: #fff;
+            padding: 10px 0 15px 0;
+        }
+
+        .content {
+            margin-bottom: 0;
+        }
+
+        .content .item {
+            border: none;
+            background-color: transparent;
+        }
+
+        .content .item_data {
+            padding-left: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            color: #a7a7af;
+        }
+
+        .content .name {
+            font-size: 22px;
+            color: #222222;
+            padding-bottom: 2px;
+            display:block;
+        }
+
+        .content .momey {
+            color: #ff7b32;
+        }
+
+        .content .item-icon-left {
+            padding-left: 0px;
+        }
+
+        .toBottom {
+            background-image: -webkit-linear-gradient(to bottom, #f5f5f5, #ebebeb);
+            background-image: linear-gradient(to bottom, #f5f5f5, #ebebeb);
+        }
+
+        .split {
+            width: 300%;
+            height: 2px;
+            background: url(images/separatorLine.png);
+            margin-left: -40px;
+            position: absolute;
+            bottom: 1px
+        }
+
+        .split-top {
+            width: 100%;
+            height: 2px;
+            background: url(images/separatorLine.png);
+        }
+
+        .btn {
+            border: none;
+            background-color: transparent;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+        }
+
+        .left {
+            position: absolute;
+            background-image: url(images/left.png);
+        }
+
+        .right {
+            position: absolute;
+            background-image: url(images/right.png);
+        }
+    </style>
+</head>
+<body>
+<div class="toBottom">
+    <div class="ionic">
+        <div class="content">
+            <ul class="list">
+                <li class="item item-icon-left item-icon-right">
+
+                    <div id='canvasDiv' style="width:100%;"></div>
+                    <div id="btnDiv" style="z-index: 999;width:100%;position: absolute;top: 0">
+                        <button id="btnLeft" class="btn left"  onclick="change(0)" click="change(0)"></button>
+                        <button id="btnRight" class="btn right" onclick="change(1)"></button>
+                    </div>
+                </li>
+                <li id="lstData">
+
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+source 'https://github.com/CocoaPods/Specs.git'
+#use_frameworks!
+platform :ios, '8.0'
+target 'SkyComponentsPod_Example' do
+  pod "SkyComponentsPod", :path => "../"
+  pod 'ZJPhotoPod'
+#:path => "../../ZJPhotoPod"
+  pod 'SkyUtilsPod'
+# :path => "../../SkyUtilsPod"
+#  pod "SkyCommonPod", :path => "../../SkyCommonPod"
+# Add by Mark 2016-04-03, for tracking collection. 
+# can't pod install, use it manually, comment from Mark.
+  pod 'UMengAnalytics'
+# Add by Mark 2016-03-28 
+  pod 'SVProgressHUD', '~> 2.0'
+ 
+
+end
+
+target 'SkyComponentsPod_Tests' do
+  pod "SkyComponentsPod", :path => "../"
+
+  
+end

@@ -1,0 +1,35 @@
+
+REF: http://dev.umeng.com/analytics/ios-doc/integration#1_3
+
+Cocoapods安装UMeng SDK:
+
+// 测试用的帐号为: enterprisedev@missionsky.com;
+// REF: www.mob.com
+
+pod 'UMengAnalytics'//标准SDK，含IDFA
+
+or
+
+pod 'UMengAnalytics-NO-IDFA'//无IDFA版SDK（请根据需要选择其中一个）
+
+
+// 确保添加libz.dylib framework;
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+- (BOOL])application:(UIApplication] *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    [MobClick startWithAppkey:@"xxxxxxxxxxxxxxx" reportPolicy:BATCH channelId:@"Web"];
+}
+
+
+
+
+
+
+
+
+
+
+
+

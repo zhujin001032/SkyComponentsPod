@@ -1,0 +1,57 @@
+/* Localized versions of Info.plist keys */
+
+// From Common_Enum.h
+// ModuleSection
+"Basic" = "基本";
+"Peripheral" = "外设";
+"Function" = "功能";
+"Payment" = "支付";
+"Security" = "安全";
+"WeChatPublic" = "微信相关";
+"Test_Deployment" = "测试&发布";
+// BasicItem
+"Landing" = "启动页面";
+"Bubble_Help" = "汽泡向导页面";
+"Version" = "版本更新相关";
+"NewUser" = "新用户认证";
+"Notification" = "通知相关";
+"Tracking" = "操作轨迹";
+"Networking" = "网络相关";
+"Menu_Setting" = "设置目录";
+"SMS_Validate" = "短信验证";
+"Graph_Lock" = "图案锁定";
+// PeripheralItem
+"Camera" = "相机";
+"Bluetooth" = "蓝牙";
+"Vibrator" = "振动装置";
+"GPS" = "GPS定位";
+"WIFI" = "WIFI相关";
+"FingerMark" = "指纹";
+// FunctionItem
+"H5Chart" = "H5 Chart";
+"Maps" = "Maps";
+"3rd_Data" = "第三方数据";
+"3rd_Reader" = "第三方阅读器";
+"Sharing" = "第三方分享";
+"SSO" = "第三方登录";
+"Operation_Count" = "操作次数统计";
+"LiveVideo" = "视频直播";
+// PaymentItem
+"AliPay" = "Alipay";
+"WeChatPay" = "WeChat Payment";
+"Paypal" = "Paypal";
+"ApplePay" = "ApplePay";
+// SecurityItem
+"LocalProperties" = "本地数据";
+"Decomplier" = "反编译";
+"Socket" = "Socket相关";
+"API_Call" = "API调用";
+// WeChatPublicItem
+"Online_Vote" = "在线投票";
+"Response" = "回复";
+"Messaging" = "发送信息";
+// TestItem
+"AWS" = "Amazon Web Service";
+"Auto_Test" = "Auto TEST";
+"Auto_Deployment" = "Auto Deployment";
+"Performance_Test" = "Performance TEST";
